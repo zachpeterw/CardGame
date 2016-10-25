@@ -18,4 +18,20 @@ class Card
         backImage = UIImage()
         isFaceUp = false
     }
+
+    func getBackImage() -> UIImage
+    {
+        return backImage
+    }
+    func isFacing() -> Bool
+    {
+        return isFaceUp
+    }
+    func toString() -> String
+    {
+        let description = "this card is \(isFaceUp)"
+        return description
+    }
+
+
 }
