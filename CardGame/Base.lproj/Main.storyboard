@@ -16,11 +16,41 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GpO-Zt-6dx">
+                                <rect key="frame" x="166" y="68" width="255" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1uI-h5-dLT">
+                                <rect key="frame" x="128" y="102" width="312" height="442"/>
+                                <state key="normal" title="Button" backgroundImage="card back"/>
+                                <connections>
+                                    <action selector="cardClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mRl-Rm-dP6"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="GpO-Zt-6dx" firstAttribute="width" secondItem="1uI-h5-dLT" secondAttribute="width" id="8c3-sQ-d06"/>
+                            <constraint firstItem="GpO-Zt-6dx" firstAttribute="leading" secondItem="1uI-h5-dLT" secondAttribute="leading" id="EaV-Md-AsO"/>
+                            <constraint firstItem="1uI-h5-dLT" firstAttribute="top" secondItem="GpO-Zt-6dx" secondAttribute="bottom" constant="45" id="HwF-bp-huf"/>
+                            <constraint firstItem="1uI-h5-dLT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="TY2-nT-obL"/>
+                            <constraint firstItem="1uI-h5-dLT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fOy-dX-0mY"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cardButton" destination="1uI-h5-dLT" id="CDA-si-4Ye"/>
+                        <outlet property="cardLabel" destination="1uI-h5-dLT" id="jdb-Vh-dpH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="305" y="418"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="card back" width="253" height="376"/>
+    </resources>
 </document>
