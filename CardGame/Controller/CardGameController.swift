@@ -24,7 +24,7 @@ class CardGameController : UIViewController
     @IBAction func cardClick(sender: UIButton)
     {
         
-        clickCount += 1
+        clickCount <= 1
         let content = "You clicked \(clickCount) times"
         if let currentCard = cardDeck.drawCard() as? PlayingCard
         {
@@ -32,7 +32,7 @@ class CardGameController : UIViewController
         }
         else
         {
-            cardButton.setTitle("deck over", forState: UIControlState.Normal)
+            cardButton.setTitle("Deck over", forState: UIControlState.Normal)
             cardDeck = PlayingCardDeck()
         }
         cardLabel.text = content
