@@ -42,7 +42,6 @@
                     </view>
                     <connections>
                         <outlet property="cardButton" destination="1uI-h5-dLT" id="CDA-si-4Ye"/>
-                        <outlet property="cardLabel" destination="1uI-h5-dLT" id="jdb-Vh-dpH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -16,7 +16,7 @@ class Card
     
     init()
     {
-        backImage = UIImage(named: "cardback")!
+        backImage = UIImage(named: "card back")!
         isFaceUp = false
     }
 
