@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3812B72D1DD6573F006DE9A9 /* StupidGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3812B72C1DD6573F006DE9A9 /* StupidGame.swift */; };
 		382A9A811DC7C4D50072E3EA /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382A9A801DC7C4D50072E3EA /* Deck.swift */; };
 		382A9A831DC7C4E90072E3EA /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382A9A821DC7C4E90072E3EA /* PlayingCardDeck.swift */; };
 		3864BF801DBFE3F3002707CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864BF7F1DBFE3F3002707CA /* AppDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3812B72C1DD6573F006DE9A9 /* StupidGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StupidGame.swift; path = ../StupidGame.swift; sourceTree = "<group>"; };
 		382A9A801DC7C4D50072E3EA /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Deck.swift; path = Model/Deck.swift; sourceTree = "<group>"; };
 		382A9A821DC7C4E90072E3EA /* PlayingCardDeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayingCardDeck.swift; path = Model/PlayingCardDeck.swift; sourceTree = "<group>"; };
 		3864BF7C1DBFE3F3002707CA /* CardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +80,7 @@
 				3864BF931DBFE60C002707CA /* PlayingCard.swift */,
 				382A9A801DC7C4D50072E3EA /* Deck.swift */,
 				382A9A821DC7C4E90072E3EA /* PlayingCardDeck.swift */,
+				3812B72C1DD6573F006DE9A9 /* StupidGame.swift */,
 			);
 			name = Model;
 			path = CardGame;
@@ -177,6 +180,7 @@
 				3864BF941DBFE60C002707CA /* PlayingCard.swift in Sources */,
 				382A9A811DC7C4D50072E3EA /* Deck.swift in Sources */,
 				382A9A831DC7C4E90072E3EA /* PlayingCardDeck.swift in Sources */,
+				3812B72D1DD6573F006DE9A9 /* StupidGame.swift in Sources */,
 				3864BF801DBFE3F3002707CA /* AppDelegate.swift in Sources */,
 				38982F841DC27DBE0066E9A9 /* CardGameController.swift in Sources */,
 			);
