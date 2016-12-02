@@ -10,12 +10,15 @@ import Foundation
 
 class StupidGame
 {
-    internal var playDeck : PlayingCardDeck
-    internal var Playerhand : [Card]
+    internal var gameDeck : PlayingCardDeck
+    internal var Playerhand : [PlayingCard]
+    internal var score : Int
     
     init()
     {
-        
+        self.gameDeck = PlayingCardDeck ()
+        self.Playerhand = [PlayingCard] ()
+        self.score = 0
     }
     
     func startGame() -> Void
